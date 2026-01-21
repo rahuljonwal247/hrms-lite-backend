@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
+  origin: process.env.CLIENT_URL || 'https://hrms-lite-frontend-rho.vercel.app',
   credentials: true,
 }));
 
